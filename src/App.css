@@ -15,17 +15,23 @@
 .input-wrap {
   display: flex;
   justify-content: center;
-  column-gap: 1.5rem;
+  column-gap: 1.2rem;
   height: 2.5rem;
 }
 [type=number] {
   text-indent: .5rem;
 }
-.button {
-  background-color: mediumslateblue;
-  color: white;
-  border: none; border-radius: 5px;
-  width: 100px;
+#cm, #inch, [type=reset], [type=submit] {
+  height: 40px;
+  border-radius: 5px;
+}
+[type=reset] {
+  background: none;
+  border: 1px solid mediumslateblue; color: mediumslateblue;
+}
+[type=submit] {
+  background: mediumslateblue; color: white;
+  border: none;
 }
 
 .copy {
